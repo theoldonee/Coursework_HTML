@@ -38,6 +38,8 @@ body{
     background-color: rgba(4,9,30,0.7);
     margin:0px 20px 20px 20px;
     border-radius: 20px;
+    min-height: 550px;
+    min-width: 900px;
 }
 
 .best_books h2{
@@ -49,6 +51,8 @@ body{
 .book_container{
     display: flex; 
     justify-content: space-evenly;
+    border: 1px solid black;
+    /* background-color: rgba(4,9,30,0.7); */
 }
 
 .book_items p{
@@ -76,7 +80,19 @@ body{
 .book_description{
     justify-self: center;
     width: 60%;
+    height: 460px;
     background-color: white;
     display: flex;
     margin: 0 20%;
+    margin-top: -450px;
+    max-width: 600px;
+}
+
+.book_description .description_img{
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.book_description .content button{
+    background-color: rgb(0,155,214);
 }
