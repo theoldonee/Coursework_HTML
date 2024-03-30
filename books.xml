@@ -30,7 +30,7 @@
 		<Category>Fiction</Category>
 		<Edition>Anniversary Edition</Edition>
 		<Date>2006</Date>
-		<Price>$14.99</Price>
+		<Price>14.99</Price>
 		<Description>Set in the 1930s, the novel explores themes of racial injustice and moral growth through the eyes of a young girl in Alabama.</Description>
 		<Genre>Bildungsroman</Genre>
 		<image>book_imgs/image2.png</image>
@@ -47,7 +47,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>1991</Date>
-		<Price>$8.99</Price>
+		<Price>8.99</Price>
 		<Description>A coming-of-age novel following Holden Caulfield's journey through adolescence, grappling with alienation and identity.</Description>
 		<Genre>Coming-of-age</Genre>
 		<image>book_imgs/image3.png</image>
@@ -63,7 +63,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reissue</Edition>
 		<Date>2007</Date>
-		<Price>$7.99</Price>
+		<Price>7.99</Price>
 		<Description>Regarded as one of the greatest works of romantic fiction, the novel explores love, marriage, and social class in early 19th-century England.</Description>
 		<Genre>Romance, Classic</Genre>
 		<image>book_imgs/image4.png</image>
@@ -80,7 +80,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reissue</Edition>
 		<Date>2004</Date>
-		<Price>$16.00</Price>
+		<Price>16.00</Price>
 		<Description>Set in the Roaring Twenties, the novel delves into the American Dream, wealth, and the illusion of success.</Description>
 		<Genre>Jazz Age, Tragedy</Genre>
 		<image>book_imgs/image5.png</image>
@@ -97,7 +97,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>1998</Date>
-		<Price>$16.99</Price>
+		<Price>16.99</Price>
 		<Description>A landmark novel in magical realism, tracing the Buendía family's saga in the fictional town of Macondo.</Description>
 		<Genre>Magical Realism</Genre>
 		<image>book_imgs/image6.png</image>
@@ -113,7 +113,7 @@
 		<Category>Young Adult Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2014</Date>
-		<Price>$12.99</Price>
+		<Price>12.99</Price>
 		<Description>A poignant love story between two teenagers battling cancer, exploring themes of life, love, and mortality.</Description>
 		<Genre>Young Adult, Romance</Genre>
 		<image>book_imgs/image7.png</image>
@@ -129,7 +129,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<date>2005</date>
-		<Price>$16.99</Price>
+		<Price>16.99</Price>
 		<Description>A semi-autobiographical novel chronicling a young woman's descent into mental illness and her struggle for identity.</Description>
 		<Genre>Semi-autobiographical</Genre>
 		<image>book_imgs/image8.png</image>
@@ -145,7 +145,7 @@
 		<Category>Mystery, Thriller</Category>
 		<Edition>Reprint</Edition>
 		<Date>2004</Date>
-		<Price>$9.99</Price>
+		<Price>9.99</Price>
 		<Description>A gripping thriller intertwining art, religion, and secret societies, following symbologist Robert Langdon's quest to unravel ancient mysteries.</Description>
 		<Genre>Mystery, Thriller</Genre>
 		<image>book_imgs/image9.png</image>
@@ -161,7 +161,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2004</Date>
-		<Price>$17.00</Price>
+		<Price>17.00</Price>
 		<Description>A powerful narrative exploring friendship, betrayal, and redemption against the backdrop of Afghanistan's tumultuous history.</Description>
 		<Genre>Historical</Genre>
 		<image>book_imgs/image10.png</image>
@@ -177,7 +177,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2004</Date>
-		<Price>$16.99</Price>
+		<Price>16.99</Price>
 		<Description>A haunting and emotionally resonant novel narrated by a young girl who watches over her family and killer from the afterlife.</Description>
 		<Genre>Supernatural</Genre>
 		<image>book_imgs/image11.png</image>
@@ -193,7 +193,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2003</Date>
-		<Price>$15.95</Price>
+		<Price>15.95</Price>
 		<Description>A tale of survival and spirituality, following a young Indian boy's journey across the Pacific Ocean on a lifeboat with a Bengal tiger.</Description>
 		<Genre>Adventure</Genre>
 		<image>book_imgs/image12.png</image>
@@ -209,7 +209,7 @@
 		<Category>Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2003</Date>
-		<Price>$18.00</Price>
+		<Price>18.00</Price>
 		<Description>An epic family saga spanning generations, exploring gender identity, immigration, and the American Dream.</Description>
 		<Genre>Family Saga</Genre>
 		<image>book_imgs/image13.png</image>
@@ -225,7 +225,7 @@
 		<Category>Young Adult Fiction</Category>
 		<Edition>Reprint</Edition>
 		<Date>2010</Date>
-		<Price>$12.99</Price>
+		<Price>12.99</Price>
 		<Description>The first book in a thrilling dystopian trilogy, following Katniss Everdeen's journey in a televised fight to the death.</Description>
 		<Genre>Action, Romance</Genre>
 		<image>book_imgs/image14.png</image>
@@ -241,7 +241,7 @@
 		<Category>Mystery, Thriller</Category>
 		<Edition>Reprint</Edition>
 		<Date>2014</Date>
-		<Price>$16.00</Price>
+		<Price>16.00</Price>
 		<Description>A gripping psychological thriller revolving around the disappearance of a woman and the ensuing media frenzy, filled with twists and unreliable narrators.</Description>
 		<Genre>Mystery, Thriller</Genre>
 		<image>book_imgs/image15.png</image>
