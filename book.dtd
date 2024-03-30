@@ -1,0 +1,15 @@
+<!DOCTYPE catalog [ 
+    <!ELEMENT catalog (book+)> 
+    <!ELEMENT book (ISBN, Title, Author+, Publisher, Category, Edition, Date, Price, Description)> 
+    <!ELEMENT ISBN (#PCDATA)> 
+    <!ELEMENT Title (#PCDATA)> 
+    <!ELEMENT Author (lastName, firstName)> 
+    <!ELEMENT Publisher (#PCDATA)> 
+    <!ELEMENT Category (#PCDATA)> 
+    <!ELEMENT Edition (#PCDATA)> 
+    <!ELEMENT Date (#PCDATA)> 
+    <!ELEMENT Price (#PCDATA)> 
+    <!ELEMENT Description (#PCDATA)> 
+    <!ELEMENT lastName (#PCDATA)> 
+    <!ELEMENT firstName (#PCDATA)> 
+]>

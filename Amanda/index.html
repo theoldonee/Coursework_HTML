@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, scale = 1.0">
+	<title> Book Store </title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</body>
+<section class="header">
+	<nav>
+		<a href="index.html"><img src="../images/logo.png" style="width:100px;height:100px;"></a>
+		<div class = "nav-links" id="navLinks">
+			<i class="fa fa-times" onclick="hideMenu()"></i>
+			<ul>
+				<li><a href="">HOME</a></li>
+				<li><a href="">ABOUT</a></li>
+				<li><a href="">BOOKS</a></li>
+				<li><a href="">BLOG</a></li>
+				<li><a href="">CONTACT</a></li>
+					
+			</ul>
+		</div>
+		<i class="fa fa-bars" onclick="showMenu()"></i>
+	</nav>
+<div class="text-box">
+<h1> World's Largest Bookstore!</h1>
+<p>AV Books: A world of knowledge at your fingertips! With multiple branches spanning the globe, AV Books is your go-to destination for literary exploration. Our vast collection caters to all interests and ages, offering a seamless blend of traditional and digital reading experiences. Whether you prefer to browse our shelves in person or explore our online store from the comfort of your home, AV Books is here to ignite your imagination and satisfy your thirst for knowledge.</p>
+<a href="" class="visit-btn"> Visit Us To Know More</a>
+</div>
+</section>
+
+<!-----books----->
+<section class="books">
+	<h1>Books We Have!</h1>
+	<p>Welcome to AV Books, where the shelves are overflowing with a diverse collection of books spanning every genre imaginable. From gripping thrillers to heartwarming romance, mind-bending sci-fi to insightful non-fiction, we pride ourselves on offering something for every reader's taste. Whether you're seeking the latest bestseller, a classic masterpiece, or a hidden gem, our extensive selection guarantees you'll find the perfect read. Explore our aisles and uncover new worlds, ideas, and adventures waiting to be discovered. AV Books: Where the world of literature awaits you.</p>
+	<div class="row">
+		<div class="books-col">
+			<h3>Kids</h3>
+			<p>Step into the magical world of children's literature at AV Books, where imagination knows no bounds. Our collection of kids' books is brimming with enchanting tales, captivating characters, and delightful adventures that will spark the imagination of young readers. From timeless classics by authors like Roald Dahl and Dr. Seuss to modern favorites such as J.K. Rowling and Rick Riordan, our shelves are stocked with stories that will charm and inspire children of all ages. Whether your little one dreams of exploring far-off lands, solving mysteries, or embarking on epic quests, AV Books has the perfect book to make their imaginations soar. Come discover the joy of reading with AV Books—where every page is a new adventure! </p>
+		</div>
+		<div class="books-col">
+			<h3>Teenagers</h3>
+			<p>Dive into a world of teenage adventures and coming-of-age tales at AV Books, where our collection of young adult literature is as vibrant and diverse as the teenagers who read them. From the captivating worlds of authors like John Green and Suzanne Collins to the relatable stories of Sarah Dessen and Angie Thomas, our shelves are stocked with novels that explore the complexities of teenage life. Whether you're seeking thrilling adventures, heartfelt romances, or thought-provoking dramas, AV Books has something for every teen reader. Explore our selection and discover stories that will resonate with you long after you've turned the last page. AV Books: Where every story is a journey of self-discovery. </p>
+		</div>
+		<div class="books-col">
+			<h3>Adults</h3>
+			<p>Embark on a literary journey for the discerning adult reader at AV Books, where our collection of fiction and non-fiction caters to every taste and interest. Lose yourself in the immersive worlds of bestselling authors like Stephen King and Jodi Picoult, or explore the profound insights of thinkers like Malcolm Gladwell and Yuval Noah Harari. Whether you're seeking gripping mysteries, poignant memoirs, or enlightening histories, our shelves are stocked with books that will captivate, inspire, and challenge you. At AV Books, we believe that reading is a lifelong adventure, and we're here to help you find your next great read. Visit us today and discover the joy of reading with AV Books.</p>
+		</div>
+		<div class="books-col">
+			<h3>Education</h3>
+			<p>Step into the world of educational excellence at AV Books, your premier destination for educational resources tailored to the British schooling system. Our comprehensive collection covers a wide range of subjects and levels, from early years to A-levels. Dive into textbooks, workbooks, and revision guides from trusted publishers like Oxford University Press and Cambridge University Press. Explore our selection of supplementary materials, including study aids, past papers, and exam tips, designed to support students and educators alike. Whether you're a student preparing for exams or a teacher seeking classroom resources, AV Books is your one-stop shop for all your educational needs. Let AV Books be your partner in academic success.</p>
+		</div>
+		
+	</div>
+</section>
+<!-----locations----->
+<section class="locations">
+	<h1>Our Locations!</h1>
+	<p>AV Books: Globally connected, locally accessible. With stores worldwide and seamless international shipping from our online store, we bring literature to your doorstep, no matter where you are.</p>
+	<div class="row">
+		<div class="locations-col">
+			<img src="../images/front.jpeg">
+			<div class="layer">
+				<h3>FLIC EN FLAC</h3>
+			</div>
+		</div>
+		<div class="locations-col">
+			<img src="../images/grand baie.jpeg">
+			<div class="layer">
+				<h3>GRAND BAIE</h3>
+			</div>
+		</div>
+		<div class="locations-col">
+			<img src="../images/quatre bornes.jpeg">
+			<div class="layer">
+				<h3>QUATRE BORNES</h3>
+			</div>
+		</div>
+	</div>		
+	
+</section>
+
+<!-----javascript toggle for menu----->
+<script>
+	var navLinks = document.getElementById("navLinks");
+	
+	function showMenu(){
+		navLinks.style.right = "0";
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200px";
+	}
+</script>
+</body>
+</html>
