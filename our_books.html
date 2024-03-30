@@ -64,16 +64,17 @@
 
             </div>
 
-            <div class="book_description">
+            <div style="display: none;" class="book_description" id="book_description15">
                 <div class="description_img">
                     <img src="book_imgs/image15.png" alt="">
                 </div>
-                <div>
+                <div class="content">
                     <p>Book name</p>
                     <p>Price</p>
                     <p>Quantity</p>
                     <textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-                    <button>Add to cart</button>
+                    <br/>
+                    <button class="add_to_cart">Add to cart</button>
                     <h4>Description</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -151,6 +152,7 @@
         let book1 = document.getElementById("book1");
         let book6 = document.getElementById("book6");
         let book15 = document.getElementById("book15");
+        let book_description15 = document.getElementById("book_description15");
         let book15a = document.getElementById("book15a");
         let book14 = document.getElementById("book14");
         let book12 = document.getElementById("book12");
@@ -166,8 +168,10 @@
             console.log("book press");
         });
         book15.addEventListener("click", ()=>{
-            alert("Book15 has been clicked");
+            // alert("Book15 has been clicked");
             console.log("book press");
+            book_description15.style.display = "flex";
+
         });
         book15a.addEventListener("click", ()=>{
             alert("Book15 has been clicked");

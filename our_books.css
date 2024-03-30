@@ -51,7 +51,7 @@ body{
 .book_container{
     display: flex; 
     justify-content: space-evenly;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     /* background-color: rgba(4,9,30,0.7); */
 }
 
@@ -93,6 +93,10 @@ body{
     margin-top: 50px;
 }
 
-.book_description .content button{
+.add_to_cart{
     background-color: rgb(0,155,214);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 20px;
 }
