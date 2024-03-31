@@ -54,8 +54,9 @@ body{
 .book_container{
     display: flex; 
     justify-content: space-evenly;
-    /* border: 1px solid black; */
-    /* background-color: rgba(4,9,30,0.7); */
+    flex-wrap: wrap;
+    /* align-content: space-evenly; */
+    gap: 2em;
 }
 
 .book_items p{
@@ -95,7 +96,14 @@ body{
 .book_description .description_img{
     margin: 10px;
     margin-top: 50px;
+    object-fit: contain;
     /* width: 200px; */
+}
+
+.description_img img{
+    width: 210px;
+    height: 340px;
+    object-fit: contain;
 }
 
 .book_description i{
