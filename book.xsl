@@ -9,6 +9,7 @@
 	<html>
 		<header>
 			<link rel="stylesheet" type="text/css" href="our_books.css" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 		</header>
 		<body>
 			<nav>
@@ -74,6 +75,7 @@
 					</div>
 
 					<div style="display: none;" class="book_description" id="book_description1">
+						
 						<div class="description_img">
 							<img src="{book[1]/image}" alt="book image"/>
 						</div>
@@ -91,15 +93,17 @@
 							<h4>Genre</h4>
 							<p><xsl:value-of select="book[1]/Genre"/></p>
 						</div>
+						<i class="fa-solid fa-x" id="x1"></i>
 					</div>
 
 					<div style="display: none;" class="book_description" id="book_description6">
+						
 						<div class="description_img">
 							<img src="{book[6]/image}" alt="book image"/>
 						</div>
 						<div class="content">
 							<h3><xsl:value-of select="book[6]/Title"/></h3>
-							<p>$<xsl:value-of select="book[15]/Price"/></p>
+							<p>$<xsl:value-of select="book[6]/Price"/></p>
 							<h4>Quantity</h4>
 							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
 							<br/>
@@ -111,9 +115,11 @@
 							<h4>Genre</h4>
 							<p><xsl:value-of select="book[6]/Genre"/></p>
 						</div>
+						<i class="fa-solid fa-x" id="x6"></i>
 					</div>
 
 					<div style="display: none;" class="book_description" id="book_description15">
+						
 						<div class="description_img">
 							<img src="{book[15]/image}" alt="book image"/>
 						</div>
@@ -131,7 +137,9 @@
 							<h4>Genre</h4>
 							<p><xsl:value-of select="book[15]/Genre"/></p>
 						</div>
+						<i class="fa-solid fa-x" id="x15"></i>
 					</div>
+					
 
 				</div>
 

@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+/* *{
+    border: 1px solid black;
+} */
 
 html{
     font-family: 'Montserrat';
@@ -64,6 +67,7 @@ body{
 .book_items{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .img_obj img{
@@ -78,15 +82,14 @@ body{
 }
 
 .book_description{
-    /* justify-self: center; */
     width: 60%;
     height: 460px;
     background-color: white;
     display: flex;
-    margin: 0 20%;
+    margin: 0px 30% 0% 30%;
     margin-top: -450px;
     max-width: 600px;
-    min-width: 560px;
+    min-width: 590px;
 }
 
 .book_description .description_img{
@@ -94,6 +97,14 @@ body{
     margin-top: 50px;
 }
 
+.book_description i{
+    display: inline-block;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin: 10px 10px;
+    height: 20px;
+    font-size: 20px;
+}
 .content{
     padding: 10px;
 }
@@ -104,4 +115,5 @@ body{
     border: none;
     width: 100px;
     height: 20px;
+    margin-top: 10px;
 }

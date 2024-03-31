@@ -9,6 +9,10 @@ let book14 = document.getElementById("book14");
 let book12 = document.getElementById("book12");
 let book9 = document.getElementById("book9");
 
+let x1 = document.getElementById("x1");
+let x6 = document.getElementById("x6");
+let x15 = document.getElementById("x15");
+
 book1.addEventListener("click", ()=>{
     // alert("Book1 has been clicked");
     console.log("book press");
@@ -41,4 +45,17 @@ book12.addEventListener("click", ()=>{
 book9.addEventListener("click", ()=>{
     alert("Book9 has been clicked");
     console.log("book press");
+});
+
+x1.addEventListener("click", ()=>{
+    console.log("book closed");
+    book_description1.style.display = "none";
+});
+x6.addEventListener("click", ()=>{
+    console.log("book closed");
+    book_description6.style.display = "none";
+});
+x15.addEventListener("click", ()=>{
+    console.log("book closed");
+    book_description15.style.display = "none";
 });
