@@ -10,6 +10,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
 }
 
 
@@ -42,8 +43,14 @@ body{
     margin:0px 20px 20px 20px;
     border-radius: 20px;
     min-height: 550px;
-    min-width: 900px;
+    min-width: 1000px;
 }
+
+/* new addition */
+/* .best_books{
+    justify-content: space-evenly;
+    align-items: center;
+} */
 
 .best_books h2{
     color: white;  
@@ -55,8 +62,8 @@ body{
     display: flex; 
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* align-content: space-evenly; */
-    gap: 2em;
+    /* min-width: 960px; */
+    gap: 4em;
 }
 
 .book_items p{
@@ -82,13 +89,16 @@ body{
     cursor: pointer;
 }
 
+.description_container{
+    border: 1px solid black;
+}
 .book_description{
     width: 60%;
     height: 460px;
     background-color: white;
-    display: flex;
     margin: 0px 30% 0% 30%;
     margin-top: -450px;
+    display: flex;
     max-width: 600px;
     min-width: 590px;
 }

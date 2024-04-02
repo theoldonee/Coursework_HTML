@@ -560,6 +560,94 @@
 						</div>
 						<i class="fa-solid fa-x" id="x5"></i>
 					</div>
+
+					<div style="display: none;" class="book_description" id="book_description8">
+						
+						<div class="description_img">
+							<img src="{book[8]/image}" alt="book image"/>
+						</div>
+						<div class="content">
+							<h3><xsl:value-of select="book[8]/Title"/></h3>
+							<p>$<xsl:value-of select="book[8]/Price"/></p>
+							<h4>Quantity</h4>
+							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
+							<br/>
+							<button class="add_to_cart">Add to cart</button>
+							<h4>Description</h4>
+							<p>
+								<xsl:value-of select="book[8]/Description"/>
+							</p>
+							<h4>Genre</h4>
+							<p><xsl:value-of select="book[8]/Genre"/></p>
+						</div>
+						<i class="fa-solid fa-x" id="x8"></i>
+					</div>
+
+					<div style="display: none;" class="book_description" id="book_description10">
+						
+						<div class="description_img">
+							<img src="{book[10]/image}" alt="book image"/>
+						</div>
+						<div class="content">
+							<h3><xsl:value-of select="book[10]/Title"/></h3>
+							<p>$<xsl:value-of select="book[10]/Price"/></p>
+							<h4>Quantity</h4>
+							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
+							<br/>
+							<button class="add_to_cart">Add to cart</button>
+							<h4>Description</h4>
+							<p>
+								<xsl:value-of select="book[10]/Description"/>
+							</p>
+							<h4>Genre</h4>
+							<p><xsl:value-of select="book[10]/Genre"/></p>
+						</div>
+						<i class="fa-solid fa-x" id="x10"></i>
+					</div>
+
+					<div style="display: none;" class="book_description" id="book_description11">
+						
+						<div class="description_img">
+							<img src="{book[11]/image}" alt="book image"/>
+						</div>
+						<div class="content">
+							<h3><xsl:value-of select="book[11]/Title"/></h3>
+							<p>$<xsl:value-of select="book[11]/Price"/></p>
+							<h4>Quantity</h4>
+							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
+							<br/>
+							<button class="add_to_cart">Add to cart</button>
+							<h4>Description</h4>
+							<p>
+								<xsl:value-of select="book[11]/Description"/>
+							</p>
+							<h4>Genre</h4>
+							<p><xsl:value-of select="book[11]/Genre"/></p>
+						</div>
+						<i class="fa-solid fa-x" id="x11"></i>
+					</div>
+
+					<div style="display: none;" class="book_description" id="book_description13">
+						
+						<div class="description_img">
+							<img src="{book[13]/image}" alt="book image"/>
+						</div>
+						<div class="content">
+							<h3><xsl:value-of select="book[13]/Title"/></h3>
+							<p>$<xsl:value-of select="book[13]/Price"/></p>
+							<h4>Quantity</h4>
+							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
+							<br/>
+							<button class="add_to_cart">Add to cart</button>
+							<h4>Description</h4>
+							<p>
+								<xsl:value-of select="book[13]/Description"/>
+							</p>
+							<h4>Genre</h4>
+							<p><xsl:value-of select="book[13]/Genre"/></p>
+						</div>
+						<i class="fa-solid fa-x" id="x13"></i>
+					</div>
 					
 				</div>
 
