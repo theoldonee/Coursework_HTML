@@ -230,8 +230,9 @@ x13.addEventListener("click", ()=>{
     book_description13.style.display = "none";
 });
 
-function calculate(clicks) {
-    const quantity = document.getElementById("quantity");
+function calculate(clicks, idName) {
+    // alert(idName);
+    const quantity = idName;
     let intQuantity = parseInt(quantity.innerText);
     const sumvalue = intQuantity + clicks;
     if (sumvalue < 0) {
@@ -239,4 +240,9 @@ function calculate(clicks) {
     }
 
     quantity.innerText = sumvalue;
+}
+
+function close(idName){
+    alert(1);
+    idName.style.display = "none";
 }

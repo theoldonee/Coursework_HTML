@@ -74,7 +74,7 @@
 
 					</div>
 
-					<div style="display: flex;" class="book_description" id="book_description1">
+					<div style="display: none;" class="book_description" id="book_description1">
 						
 						<div class="description_img">
 							<img src="{book[1]/image}" alt="book image"/>
@@ -84,9 +84,9 @@
 							<p>$<xsl:value-of select="book[1]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity1)">+</button>
+								<p id="quantity1">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity1)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							
@@ -112,9 +112,9 @@
 							<p>$<xsl:value-of select="book[6]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity6)">+</button>
+								<p id="quantity6">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity6)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -137,9 +137,9 @@
 							<p>$<xsl:value-of select="book[15]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity15)">+</button>
+								<p id="quantity15">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity15)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -221,9 +221,9 @@
 							<p>$<xsl:value-of select="book[15]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity15a)">+</button>
+								<p id="quantity15a">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity15a)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -246,9 +246,9 @@
 							<p>$<xsl:value-of select="book[14]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity14)">+</button>
+								<p id="quantity14">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity14)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -271,9 +271,9 @@
 							<p>$<xsl:value-of select="book[12]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity12)">+</button>
+								<p id="quantity12">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity12)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -296,9 +296,9 @@
 							<p>$<xsl:value-of select="book[9]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity9)">+</button>
+								<p id="quantity9">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity9)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -367,9 +367,9 @@
 							<p>$<xsl:value-of select="book[4]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity4)">+</button>
+								<p id="quantity4">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity4)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -392,9 +392,9 @@
 							<p>$<xsl:value-of select="book[7]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity7)">+</button>
+								<p id="quantity7">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity7)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -417,9 +417,9 @@
 							<p>$<xsl:value-of select="book[14]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity14a)">+</button>
+								<p id="quantity14a">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity14a)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -538,9 +538,9 @@
 							<p>$<xsl:value-of select="book[2]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity2)">+</button>
+								<p id="quantity2">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity2)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -563,9 +563,9 @@
 							<p>$<xsl:value-of select="book[3]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity3)">+</button>
+								<p id="quantity3">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity3)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -588,9 +588,9 @@
 							<p>$<xsl:value-of select="book[5]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity5)">+</button>
+								<p id="quantity5">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity5)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -613,9 +613,9 @@
 							<p>$<xsl:value-of select="book[8]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity8)">+</button>
+								<p id="quantity8">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity8)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -638,9 +638,9 @@
 							<p>$<xsl:value-of select="book[10]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity10)">+</button>
+								<p id="quantity10">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity10)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -663,9 +663,9 @@
 							<p>$<xsl:value-of select="book[11]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity11)">+</button>
+								<p id="quantity11">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity11)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
@@ -688,9 +688,9 @@
 							<p>$<xsl:value-of select="book[13]/Price"/></p>
 							<h4>Quantity</h4>
 							<div class="quantity_block">
-								<button id="add_button" onclick="calculate(1)">+</button>
-								<p id="quantity">0</p>
-								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button id="add_button" onclick="calculate(1, quantity13)">+</button>
+								<p id="quantity13">0</p>
+								<button id="sub_button" onclick="calculate(-1, quantity13)">-</button>
 								<button class="add_to_cart">Add to cart</button>
 							</div>
 							<h4>Description</h4>
