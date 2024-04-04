@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, scale = 1.0">
+    
+	<link rel = "icon" href = "favicon.ico"> 
+
+    <link rel="stylesheet" href="style_pages.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Contact - Book Store</title>
+
+    <style>
+      
+        /*Links */
+        a:link {
+            color: black;
+            text-decoration: none;
+            
+        }
+
+        a:visited {
+            color: pink;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: orange;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+     
+       
+
+        /*User Account styles*/
+        table {
+            font-family:'Courier New', Courier, monospace;
+            width: 50%;
+            margin: auto;
+            border: 1px solid gold; /* Set border color to gold */
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px ;
+            
+        }
+    
+        input[type=text], input[type=password] {
+            width: 100%;
+            padding: 8px 10px;
+            margin: 4px 0;
+            display: inline-block;
+            border: 1px solid gold;
+            border-radius: 5px; /* Add rounded corners to the input field */
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color:black;
+            color: white;
+            padding: 10px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 30%;
+        }
+
+        button:hover {
+            opacity: 0.8;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+
+    
+    <div class="main"> 
+        <nav>
+            <a href="index.html"><img src="../images/logo.png" style="width:100px;height:100px;"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="final.html" >HOME</a></li>
+                    <li><a href="about_page.html">ABOUT</a></li>
+                    <li><a href="../Favour/books.xml">BOOKS</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="contact_page.html">CONTACT</a></li>
+                        
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+    </div>
+
+
+
+<!-- LOGIN AND REGISTER DETAILS -->
+<div class="container">
+    <div class="table-row">
+        <table class="login-table" style="width: 500px;">
+            <!-- Login Table Content -->
+            <tr>
+                <th colspan="2">Login</th>
+            </tr>
+            <tr>
+                <td><label for="uname"><b>Username or Email*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter Username or Email" name="uname" style="width: 450px;" required></td>
+            </tr>
+            <tr>
+                <td><label for="psw"><b>Password*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Enter Password" name="psw" style="width: 450px;" required></td>
+            </tr>
+
+            <tr>
+                <td colspan="2"> <!-- Adjusted colspan to 2 -->
+                    <button type="submit">LOG IN</button>
+                    <!--Remember me with tick box icon-->
+                    <input type="checkbox" id="rememberMe" name="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                    <span class="psw">Forgot <a href="#">password?</a></span>
+                </td>
+            </tr>
+            
+        </table>
+
+        <table class="register-table" style="width: 550px; margin-top: 5%;">
+            <!-- Register Table Content -->
+            <tr>
+                <th colspan="2">Register</th>
+            </tr>
+            <!--First Name-->
+            <tr>
+                <td><label for="fname"><b>First Name*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="First Name" name="fname" style="width: 450px;" required></td>
+            </tr>
+            <!--Last Name-->
+            <tr>
+                <td><label for="lname"><b>Last Name*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Last Name" name="lname" style="width: 450px;" required></td>
+            </tr>
+            <!--Email-->
+            <tr>
+                <td><label for="email"><b>Email Address*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter Email" name="email" style="width: 450px;" required></td>
+            </tr>
+            <!--Password-->
+            <tr>
+                <td><label for="psw"><b>Password*</b></label></td>
+            </tr>
+            <tr>
+                <td><input type="password" placeholder="Enter Password" name="psw" style="width: 450px;" required></td>
+            </tr>
+            <tr>
+                <td>
+                    Your personal data will be used to support your <br>experience  throughout this website, to manage <br>access to your account,  and for other purposes described in our privacy policy.
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">REGISTER</button></td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+   
+
+
+ <!--CONTACT US-->
+ <footer style="animation: fade 5s ease-in-out;" >
+     <h1>Contact Us</h1>
+     <p>For any inquiries, please contact us:</p>
+     <ul>
+         <li><a href="tel:+230567890">Call our TOLL-FREE number: +(230) 567-890</a></li>
+         <li>WhatsApp us on: +230-567-890</li>
+         <li><a href="mailto:info@avbookstore.com">Email us: info@avbookstore.com</a></li>
+     </ul>    
+         &copy; 2024 AV Book Store . All Rights Reserved.
+ </footer>
+         
+ 
+<!-- javascript toggle for menu -->
+<script>
+ var navLinks = document.getElementById("navLinks");
+ 
+ function showMenu(){
+     navLinks.style.right = "0";
+ }
+ function hideMenu(){
+     navLinks.style.right = "-200px";
+ }
+</script>
+
+</body>
+</html>

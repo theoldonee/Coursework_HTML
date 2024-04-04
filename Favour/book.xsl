@@ -17,7 +17,7 @@
 					<ul class="nav_items">
 						<li><a href="">HOME</a></li>
 						<li><a href="">ABOUT</a></li>
-						<li><a href="">BOOKS</a></li>
+						<li><a href="books.xml">BOOKS</a></li>
 						<li><a href="">BLOG</a></li>
 						<li><a href="">CONTACT</a></li>
 					</ul>
@@ -74,7 +74,7 @@
 
 					</div>
 
-					<div style="display: none;" class="book_description" id="book_description1">
+					<div style="display: flex;" class="book_description" id="book_description1">
 						
 						<div class="description_img">
 							<img src="{book[1]/image}" alt="book image"/>
@@ -83,9 +83,15 @@
 							<h3><xsl:value-of select="book[1]/Title"/></h3>
 							<p>$<xsl:value-of select="book[1]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
+							
+							<!-- <textarea name="bob" id="" cols="30" rows="2">input text</textarea> -->
+							
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[1]/Description"/>
@@ -105,9 +111,12 @@
 							<h3><xsl:value-of select="book[6]/Title"/></h3>
 							<p>$<xsl:value-of select="book[6]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[6]/Description"/>
@@ -127,9 +136,12 @@
 							<h3><xsl:value-of select="book[15]/Title"/></h3>
 							<p>$<xsl:value-of select="book[15]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[15]/Description"/>
@@ -208,9 +220,12 @@
 							<h3><xsl:value-of select="book[15]/Title"/></h3>
 							<p>$<xsl:value-of select="book[15]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[15]/Description"/>
@@ -230,9 +245,12 @@
 							<h3><xsl:value-of select="book[14]/Title"/></h3>
 							<p>$<xsl:value-of select="book[14]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[14]/Description"/>
@@ -252,9 +270,12 @@
 							<h3><xsl:value-of select="book[12]/Title"/></h3>
 							<p>$<xsl:value-of select="book[12]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[12]/Description"/>
@@ -274,9 +295,12 @@
 							<h3><xsl:value-of select="book[9]/Title"/></h3>
 							<p>$<xsl:value-of select="book[9]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[9]/Description"/>
@@ -342,9 +366,12 @@
 							<h3><xsl:value-of select="book[4]/Title"/></h3>
 							<p>$<xsl:value-of select="book[4]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[4]/Description"/>
@@ -364,9 +391,12 @@
 							<h3><xsl:value-of select="book[7]/Title"/></h3>
 							<p>$<xsl:value-of select="book[7]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[7]/Description"/>
@@ -386,9 +416,12 @@
 							<h3><xsl:value-of select="book[14]/Title"/></h3>
 							<p>$<xsl:value-of select="book[14]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[14]/Description"/>
@@ -504,9 +537,12 @@
 							<h3><xsl:value-of select="book[2]/Title"/></h3>
 							<p>$<xsl:value-of select="book[2]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[2]/Description"/>
@@ -526,9 +562,12 @@
 							<h3><xsl:value-of select="book[3]/Title"/></h3>
 							<p>$<xsl:value-of select="book[3]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[3]/Description"/>
@@ -548,9 +587,12 @@
 							<h3><xsl:value-of select="book[5]/Title"/></h3>
 							<p>$<xsl:value-of select="book[5]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[5]/Description"/>
@@ -570,9 +612,12 @@
 							<h3><xsl:value-of select="book[8]/Title"/></h3>
 							<p>$<xsl:value-of select="book[8]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[8]/Description"/>
@@ -592,9 +637,12 @@
 							<h3><xsl:value-of select="book[10]/Title"/></h3>
 							<p>$<xsl:value-of select="book[10]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[10]/Description"/>
@@ -614,9 +662,12 @@
 							<h3><xsl:value-of select="book[11]/Title"/></h3>
 							<p>$<xsl:value-of select="book[11]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[11]/Description"/>
@@ -636,9 +687,12 @@
 							<h3><xsl:value-of select="book[13]/Title"/></h3>
 							<p>$<xsl:value-of select="book[13]/Price"/></p>
 							<h4>Quantity</h4>
-							<textarea name="bob" id="" cols="30" rows="2">input text</textarea>
-							<br/>
-							<button class="add_to_cart">Add to cart</button>
+							<div class="quantity_block">
+								<button id="add_button" onclick="calculate(1)">+</button>
+								<p id="quantity">0</p>
+								<button id="sub_button" onclick="calculate(-1)">-</button>
+								<button class="add_to_cart">Add to cart</button>
+							</div>
 							<h4>Description</h4>
 							<p>
 								<xsl:value-of select="book[13]/Description"/>
@@ -651,6 +705,15 @@
 					
 				</div>
 
+				<footer>
+					<h3>ADDRESS</h3>
+					<p>Coastal Rd, Flic en Flac</p>
+					<h3>CONTACT</h3>
+					<p>FE163@live.mdx.ac.uk</p>
+					<p>KB1360@live.mdx.ac.uk</p>
+					<p>AN1166@live.mdx.ac.uk</p>
+					<p>JM2347@live.mdx.ac.uk</p>
+				</footer>
 
 			</xsl:for-each>
 

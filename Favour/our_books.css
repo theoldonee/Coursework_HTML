@@ -10,6 +10,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
+    min-width: 1200px;
     /* justify-content: center; */
 }
 
@@ -134,5 +135,33 @@ body{
     border: none;
     width: 100px;
     height: 20px;
-    margin-top: 10px;
+    margin: 0px 30px 0px 30px ;
+    /* border: ; */
+    border: 1px solid rgb(0,155,214);
+    border-radius: 50px;
+    transition: background-colour 0.15s, border-color 0.15s, color 0.15s;
+}
+
+.add_to_cart:active{
+    background-color: white;
+    color: rgb(0,155,214);
+}
+
+.quantity_block{
+    font-size: 20px;
+    margin: 0px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.quantity_block p{
+    margin: 0px 20px 0px 20px;
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
 }

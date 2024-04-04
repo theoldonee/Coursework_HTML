@@ -17,7 +17,7 @@
 		<Price>10.99</Price>
 		<Description>A dystopian novel depicting a totalitarian regime where individuality and truth are suppressed.</Description>
 		<Genre>Dystopian</Genre>
-		<image>book_imgs/image1.png</image>
+		<image>../book_imgs/image1.png</image>
 	</book>
 	<book lang="en">
 		<Title>To Kill a Mockingbird</Title>
@@ -33,7 +33,7 @@
 		<Price>14.99</Price>
 		<Description>Set in the 1930s, the novel explores themes of racial injustice and moral growth through the eyes of a young girl in Alabama.</Description>
 		<Genre>Bildungsroman</Genre>
-		<image>book_imgs/image2.png</image>
+		<image>../book_imgs/image2.png</image>
 	</book>
 	<book>
 		<Title>The Catcher in the Rye</Title>
@@ -50,7 +50,7 @@
 		<Price>8.99</Price>
 		<Description>A coming-of-age novel following Holden Caulfield's journey through adolescence, grappling with alienation and identity.</Description>
 		<Genre>Coming-of-age</Genre>
-		<image>book_imgs/image3.png</image>
+		<image>../book_imgs/image3.png</image>
 	</book>
 	<book>
 		<Title>Pride and Prejudice</Title>
@@ -66,7 +66,7 @@
 		<Price>7.99</Price>
 		<Description>Regarded as one of the greatest works of romantic fiction, the novel explores love, marriage, and social class in early 19th-century England.</Description>
 		<Genre>Romance, Classic</Genre>
-		<image>book_imgs/image4.png</image>
+		<image>../book_imgs/image4.png</image>
 	</book>
 	<book>
 		<Title>The Great Gatsby</Title>
@@ -83,7 +83,7 @@
 		<Price>16.00</Price>
 		<Description>Set in the Roaring Twenties, the novel delves into the American Dream, wealth, and the illusion of success.</Description>
 		<Genre>Jazz Age, Tragedy</Genre>
-		<image>book_imgs/image5.png</image>
+		<image>../book_imgs/image5.png</image>
 	</book>
 	<book>
 		<Title>One Hundred Years of Solitude</Title>
@@ -100,7 +100,7 @@
 		<Price>16.99</Price>
 		<Description>A landmark novel in magical realism, tracing the Buendía family's saga in the fictional town of Macondo.</Description>
 		<Genre>Magical Realism</Genre>
-		<image>book_imgs/image6.png</image>
+		<image>../book_imgs/image6.png</image>
 	</book>
 	<book>
 		<Title>The Fault in Our Stars</Title>
@@ -116,7 +116,7 @@
 		<Price>12.99</Price>
 		<Description>A poignant love story between two teenagers battling cancer, exploring themes of life, love, and mortality.</Description>
 		<Genre>Young Adult, Romance</Genre>
-		<image>book_imgs/image7.png</image>
+		<image>../book_imgs/image7.png</image>
 	</book>
 	<book>
 		<Title>The Bell Jar</Title>
@@ -132,7 +132,7 @@
 		<Price>16.99</Price>
 		<Description>A semi-autobiographical novel chronicling a young woman's descent into mental illness and her struggle for identity.</Description>
 		<Genre>Semi-autobiographical</Genre>
-		<image>book_imgs/image8.png</image>
+		<image>../book_imgs/image8.png</image>
 	</book>
 	<book>
 		<Title>The Da Vinci Code</Title>
@@ -148,7 +148,7 @@
 		<Price>9.99</Price>
 		<Description>A gripping thriller intertwining art, religion, and secret societies, following symbologist Robert Langdon's quest to unravel ancient mysteries.</Description>
 		<Genre>Mystery, Thriller</Genre>
-		<image>book_imgs/image9.png</image>
+		<image>../book_imgs/image9.png</image>
 	</book>
 	<book>
 		<Title>The Kite Runner</Title>
@@ -164,7 +164,7 @@
 		<Price>17.00</Price>
 		<Description>A powerful narrative exploring friendship, betrayal, and redemption against the backdrop of Afghanistan's tumultuous history.</Description>
 		<Genre>Historical</Genre>
-		<image>book_imgs/image10.png</image>
+		<image>../book_imgs/image10.png</image>
 	</book>
 	<book>
 		<Title>The Lovely Bones</Title>
@@ -180,7 +180,7 @@
 		<Price>16.99</Price>
 		<Description>A haunting and emotionally resonant novel narrated by a young girl who watches over her family and killer from the afterlife.</Description>
 		<Genre>Supernatural</Genre>
-		<image>book_imgs/image11.png</image>
+		<image>../book_imgs/image11.png</image>
 	</book>
 	<book>
 		<Title>Life of Pi</Title>
@@ -196,7 +196,7 @@
 		<Price>15.95</Price>
 		<Description>A tale of survival and spirituality, following a young Indian boy's journey across the Pacific Ocean on a lifeboat with a Bengal tiger.</Description>
 		<Genre>Adventure</Genre>
-		<image>book_imgs/image12.png</image>
+		<image>../book_imgs/image12.png</image>
 	</book>
 	<book>
 		<Title>Middlesex</Title>
@@ -212,7 +212,7 @@
 		<Price>18.00</Price>
 		<Description>An epic family saga spanning generations, exploring gender identity, immigration, and the American Dream.</Description>
 		<Genre>Family Saga</Genre>
-		<image>book_imgs/image13.png</image>
+		<image>../book_imgs/image13.png</image>
 	</book>
 	<book>
 		<Title>The Hunger Games</Title>
@@ -228,7 +228,7 @@
 		<Price>12.99</Price>
 		<Description>The first book in a thrilling dystopian trilogy, following Katniss Everdeen's journey in a televised fight to the death.</Description>
 		<Genre>Action, Romance</Genre>
-		<image>book_imgs/image14.png</image>
+		<image>../book_imgs/image14.png</image>
 	</book>
 	<book>
 		<Title>Gone Girl</Title>
@@ -244,6 +244,6 @@
 		<Price>16.00</Price>
 		<Description>A gripping psychological thriller revolving around the disappearance of a woman and the ensuing media frenzy, filled with twists and unreliable narrators.</Description>
 		<Genre>Mystery, Thriller</Genre>
-		<image>book_imgs/image15.png</image>
+		<image>../book_imgs/image15.png</image>
 	</book>
 </catalog>

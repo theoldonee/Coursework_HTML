@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us - AV Books</title>
+<link rel="stylesheet" href="style_pages.css">
+<style>
+            
+      /*Links */
+        a:link {
+            color: black;
+            text-decoration: none;
+            
+        }
+
+        a:visited {
+            color: pink;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: orange;
+            text-decoration: none;
+        }
+
+        a:active {
+            color: yellow;
+            text-decoration: underline;
+        }
+
+        h1{
+            text-decoration-style: solid;
+        }
+
+</style>
+</head>
+<body>
+<header>
+ <!-- Navigation Bar -->
+
+    
+ <div class="main"> 
+    <nav>
+        <a href="index.html"><img src="/Users/Melanie/Documents/MODULES/Intro to organisation/Coursework/final_html_coursework/logo.png" style="width:100px;height:100px;"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="final.html" >HOME</a></li>
+                <li><a href="about_page.html">ABOUT</a></li>
+                <li><a href="">BOOKS</a></li>
+                <li><a href="blog_page.html">BLOG</a></li>
+                <li><a href="contact_page.html">CONTACT</a></li>
+                    
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+</div>
+
+
+</header>
+
+
+<section class="about-content" style="animation: fade 5s ease-in-out;"    >
+    
+    <h1>WHO ARE WE</h1>
+    <p>Welcome to AV Books, a literary haven unlike any other! Founded by a group of passionate bibliophiles, AV Books has become a beacon for book lovers around the world.</p>
+    <p>Our journey began with a shared vision: to create a bookstore that not only offers a vast selection of books but also fosters a community of readers. We believe that books have the power to inspire, educate, and transform lives.</p>
+    <p>At AV Books, we pride ourselves on curating a diverse collection of books that cater to every taste and interest. Whether you're looking for the latest bestsellers, timeless classics, or niche titles, we have something for everyone.</p>
+    <p>But AV Books is more than just a bookstore—it's a passion project fueled by our love for literature and our dedication to our customers. We strive to provide a personalized shopping experience, where every book is carefully selected to delight and inspire.</p>
+    <p>Join us on this literary journey and discover the magic of AV Books. Let us be your guide to a world of imagination, knowledge, and endless possibilities.</p>
+</section>
+
+
+
+ <!--CONTACT US-->
+ <footer style="animation: fade 5s ease-in-out;" >
+    <h1>Contact Us</h1>
+    <p>For any inquiries, please contact us:</p>
+    <ul>
+        <li><a href="tel:+230567890">Call our TOLL-FREE number: +(230) 567-890</a></li>
+        <li>WhatsApp us on: +230-567-890</li>
+        <li><a href="mailto:info@avbookstore.com">Email us: info@avbookstore.com</a></li>
+    </ul>    
+        &copy; 2024 AV Book Store . All Rights Reserved.
+</footer>
+
+<!--javascript toggle for menu-->
+<script>
+var navLinks = document.getElementById("navLinks");
+
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
+</script>
+
+
+</body>
+</html>
