@@ -15,11 +15,11 @@
 			<nav>
 				<div>
 					<ul class="nav_items">
-						<li><a href="">HOME</a></li>
-						<li><a href="">ABOUT</a></li>
+						<li><a href="../Amanda/index.html">HOME</a></li>
+						<li><a href="../Melanie/about_page.html">ABOUT</a></li>
 						<li><a href="books.xml">BOOKS</a></li>
 						<li><a href="">BLOG</a></li>
-						<li><a href="">CONTACT</a></li>
+						<li><a href="../Melanie/contact_page.html">CONTACT</a></li>
 					</ul>
 				</div>
 			</nav>
