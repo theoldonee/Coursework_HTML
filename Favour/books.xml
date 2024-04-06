@@ -1,6 +1,23 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="book.xsl"?>
 <!-- <!DOCTYPE catalog SYSTEM "book.dtd"> -->
+<!DOCTYPE catalog [ 
+    <!ELEMENT catalog (book+)> 
+    <!ELEMENT book (ISBN, Title, Author+, Publisher, Category, Edition, Date, Price, Description, Genre, image)> 
+    <!ELEMENT ISBN (#PCDATA)> 
+    <!ELEMENT Title (#PCDATA)> 
+    <!ELEMENT Author (lastName, firstName)> 
+    <!ELEMENT Publisher (#PCDATA)> 
+    <!ELEMENT Category (#PCDATA)> 
+    <!ELEMENT Edition (#PCDATA)> 
+    <!ELEMENT Date (#PCDATA)> 
+    <!ELEMENT Price (#PCDATA)> 
+    <!ELEMENT Description (#PCDATA)>
+	<!ELEMENT Genre (#PCDATA)>
+	<!ELEMENT image (#PCDATA)>
+    <!ELEMENT lastName (#PCDATA)> 
+    <!ELEMENT firstName (#PCDATA)> 
+]>
 
 <catalog>
 	<book>
@@ -246,4 +263,4 @@
 		<Genre>Mystery, Thriller</Genre>
 		<image>../book_imgs/image15.png</image>
 	</book>
-</catalog>
+</catalog> 
