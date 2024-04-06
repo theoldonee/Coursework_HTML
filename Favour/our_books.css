@@ -7,11 +7,13 @@ html{
     font-family: 'Montserrat';
 }
 
-body{
-    min-width: 1200px;
+section{
+    display: flex;
 }
 
-
+header{
+    min-width: 50%;
+}
 .nav_items{
     display: flex;
     justify-content: flex-end;
@@ -70,12 +72,6 @@ body{
     min-height: 550px;
     min-width: 1000px;
 }
-
-/* new addition */
-/* .best_books{
-    justify-content: space-evenly;
-    align-items: center;
-} */
 
 .best_books h2{
     color: white;  
@@ -144,7 +140,6 @@ body{
 .book_description i{
     display: inline-block;
     flex-direction: row;
-    /* border: 1px solid black; */
     margin: 10px 10px;
     height: 20px;
     font-size: 20px;
@@ -160,7 +155,6 @@ body{
     width: 100px;
     height: 20px;
     margin: 0px 30px 0px 30px ;
-    /* border: ; */
     border: 1px solid rgb(0,155,214);
     border-radius: 50px;
     transition: background-colour 0.15s, border-color 0.15s, color 0.15s;
@@ -183,21 +177,59 @@ body{
     margin: 0px 20px 0px 20px;
 }
 
-.card{
-    /* position: fixed; */
-    top: 0;
-    left: calc(100% - 500px);
-    width: 500px;
-    /* background-color: rgba(4,9,30,0.7); */
-    /* height: 90%; */
-    /* display: flex; */
-}
 footer{
-    /* display:flex;
-    flex-direction: column; */
     width: 100%;
     padding: 10px;
     text-align: center;
     background-color: rgba(0,0,0,0.9);
     color: white;
+}
+
+.cart{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+    min-width: 250px;
+    background-color: rgba(4,9,30,0.9);
+    position: sticky;
+    top: 10;
+    height: 880px;
+
+}
+
+.cart h3{
+    text-align: center;
+}
+
+.cardbox{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+}
+
+.card{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: rgba(4,9,30,0.8);
+    height: 50px;
+    margin: 0;
+}
+.card *{
+    margin: 0;
+}
+
+.order_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+ 
+.order_total{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }

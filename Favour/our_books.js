@@ -242,7 +242,36 @@ function calculate(clicks, idName) {
     quantity.innerText = sumvalue;
 }
 
-function close(idName){
-    alert(1);
-    idName.style.display = "none";
+function calculateQuantity(clicks, quantityId, cardId) {
+    const quantity = quantityId;
+    let intQuantity = parseInt(quantity.innerText);
+    const sumvalue = intQuantity + clicks;
+    if (sumvalue < 1) {
+        cardId.style.display = "none";
+    }
+
+    quantity.innerText = sumvalue;
+}
+
+let cartIcon = document.getElementById("cartIcon");
+let cart = document.getElementById("cart");
+let showCart = true;
+
+cartIcon.addEventListener("click", ()=>{
+    if (showCart == true){
+        cart.style.display = "flex";
+        showCart = false;
+    }else {
+        cart.style.display = "none";
+        showCart = true;
+    }
+});
+
+function updateCart(cardId, descriptionQuabtity, cardQuantity) {
+    if (parseInt(descriptionQuabtity.innerText) > 0){
+        cardId.style.display = "flex";
+        cardQuantity.innerText = parseInt(descriptionQuabtity.innerText);
+    }else{
+        cardId.style.display = "none";
+    }
 }
